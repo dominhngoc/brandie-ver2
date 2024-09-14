@@ -80,7 +80,7 @@ const toggleMenu = () => {
     <div class="flex justify-between items-center pt-4 px-[4%] md:px-[10%]">
       <!-- Logo Section -->
       <div class="flex items-center space-x-2">
-        <img src="/assets/images/Avt.png" alt="Brandie Logo" class="h-auto w-[120px]"> <!-- Placeholder for Logo -->
+        <img src="/assets/images/Avt.png" alt="Brandie Logo" class="h-auto w-[100px]"> <!-- Placeholder for Logo -->
       </div>
 
       <!-- Hamburger Button (Visible on mobile) -->
@@ -100,7 +100,7 @@ const toggleMenu = () => {
       </ul>
 
       <!-- Mobile Menu (Sliding from right) -->
-      <div :class="isMenuOpen ? 'translate-x-0' : 'translate-x-full'" class="fixed top-0 right-0 h-full bg-white shadow-lg menu-transition lg:hidden py-4 px-10" style="width: fit-content;">
+      <div :class="isMenuOpen ? 'translate-x-0' : 'translate-x-full'" class="fixed z-10 top-0 right-0 h-full bg-white shadow-lg menu-transition lg:hidden py-4 px-10" style="width: fit-content;">
             <!-- Close Button -->
             <div class="flex justify-end mb-4">
                 <button @click="isMenuOpen = false" class="focus:outline-none">
