@@ -1,0 +1,14 @@
+  <header class="relative">
+        <!-- Top Half: Black Background -->
+        <div class="bg-black h-12"></div>
+
+        <!-- Bottom Half: White Background -->
+        <div class="bg-white h-12"></div>
+
+        <!-- Moved Logo to the Left -->
+        <div class="absolute top-4 left-8">
+            <div class="bg-white p-1 rounded-full border-4 border-gray-100 shadow-lg">
+                <img src="https://via.placeholder.com/64" alt="Logo" class="w-16 h-16 rounded-full" />
+            </div>
+        </div>
+    </header>   
