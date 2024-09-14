@@ -80,8 +80,7 @@ const toggleMenu = () => {
     <div class="flex justify-between items-center pt-4 px-[4%] md:px-[10%]">
       <!-- Logo Section -->
       <div class="flex items-center space-x-2">
-        <img src="/assets/images/Avt.png" alt="Brandie Logo" class="h-8 w-8"> <!-- Placeholder for Logo -->
-        <span class="font-bold text-lg text-black">Brandie</span>
+        <img src="/assets/images/Avt.png" alt="Brandie Logo" class="h-auto w-[120px]"> <!-- Placeholder for Logo -->
       </div>
 
       <!-- Hamburger Button (Visible on mobile) -->
